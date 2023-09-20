@@ -1,0 +1,34 @@
+실험 모델 (6개)
+[lenet , pure_cnn, net_in_net, resnet, densenet,wide_resnet]
+
+Image_ID_List : 16,20,25
+
+	Image ID 16 
+		Lenet : 32 sec
+		Pure_cnn : 37 sec
+		Net_in_net : 39 sec
+		Resnet : 37 sec
+		Dense_Net : 63 sec
+		Wide_resnet : 50 sec
+
+		[32.84638047218323, 37.312512159347534, 39.18734955787659, 37.01389026641846, 63.21725010871887, 50.18642258644104]
+
+	Image ID 20
+		Lenet : 34 sec
+		Pure_cnn : 40 sec
+		Net_in_net : 39 sec 
+		Resnet : 38 sec
+		Dense_Net : 61 sec
+		Wide_resnet : 52 sec
+
+		[34.015740156173706, 40.60638403892517, 39.896554470062256, 38.53341102600098, 61.10643744468689, 52.88764190673828]
+
+	Image ID 25
+		Lenet : 37 sec
+		Pure_cnn : 45 sec
+		Net_in_net :44 sec 
+		Resnet : 43 sec
+		Dense_Net : 62 sec
+		Wide_resnet : 58 sec
+
+		[37.85817360877991, 45.521979331970215, 44.169936656951904, 43.89227628707886, 62.61737251281738, 58.61426758766174]
